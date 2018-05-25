@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Immersive</string>
+    <string name="tile_immersive_name">Immersive</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">IMMERSE!</string>
+    <string name="slide_1_title">Welcome to Immersive!</string>
+    <string name="slide_1_desc">If you\'re not familiar with the term ADB, please skip ahead!</string>
+    <string name="slide_2_title">Connect device with computer, input following command in terminal</string>
+    <string name="slide_2_desc">adb shell pm grant de.chinguyen.immersive android.permission.WRITE_SECURE_SETTINGS </string>
+    <string name="slide_3_title">You are now good to go!</string>
+    <string name="slide_3_desc">Enjoy your immersive experience</string>#
+    <string name="website"><a href="https://forum.xda-developers.com/showthread.php?t=879701">Guide to ADB</a></string>
+    <string name="perm_granted">Permission granted, Immersive tile can now be found in your quick setting area. Please leave the app running to avoid issues</string>
+    <string name="perm_needed">Permission needed. Please install android platform tools and make sure adb command is recognized by the operating system</string>
+
+    <string name="refresh">Press the green refresh button when you\'re done!</string>
+    <string name="task">What should the button do?</string>
+    <string name="nothing">Do nothing</string>
+    <string name="status_bar">Hide status bar</string>
+    <string name="navigation_bar">Hide navigation bar</string>
+    <string name="full">Hide status bar and navigation bar</string>
+    <string-array name="pref_example_list_titles">
+        <item>Do nothing</item>
+        <item>Hide status bar</item>
+        <item>Hide navigation bar</item>
+        <item>Fullscreen mode</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <android.support.v7.preference.PreferenceCategory
+            android:title="Category 1">
+
+            <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+            <ListPreference
+                android:defaultValue="-1"
+                android:entries="@array/pref_example_list_titles"
+                android:entryValues="@array/pref_example_list_values"
+                android:key="list"
+                android:negativeButtonText="@null"
+                android:positiveButtonText="@null"
+                android:title="@string/" />
+        </android.support.v7.preference.PreferenceCategory>
+
+</PreferenceScreen>
